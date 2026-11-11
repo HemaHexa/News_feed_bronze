@@ -1,0 +1,41 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime logs
+logs/
+*.log
+
+# Ignore Parquet files by default
+*.parquet
+
+# Allow the public sample Parquet file
+!sample_data/
+!sample_data/**/*.parquet
+
+# Temporary files
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
